@@ -149,6 +149,15 @@ from mumu.mumu import Mumu
 
 Mumu(r'your_path').select(1)
 ```
+示例：
+```python
+from mumu.mumu import Mumu
+
+Paht = "D:\Game\MuMuPlayer-12.0\shell\MuMuPlayer.exe"
+
+Mumu(Paht).select().power.restart()
+```
+
 
 ### 模拟器索引说明
 
